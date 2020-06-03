@@ -68,6 +68,7 @@ namespace InventorySystem
             _TestDatabase_conn.Close();
         }
 
+<<<<<<< HEAD
         /* Test: Login class inserting data.
          */
         [Test]
@@ -106,6 +107,46 @@ namespace InventorySystem
          */
         [Test]
         public void TestProductsCount()
+=======
+        /* Test: Test counting the number of the customers in database.
+         */
+        [Test]
+        public void TestCustomersCountInTable()
+        {
+            _InventoryDatabase_conn.Open();
+
+            SqlCommand TestCommandCustomer = new SqlCommand();
+            TestCommandCustomer.CommandText = "SELECT COUNT(*) FROM customers";
+            TestCommandCustomer.Connection = _InventoryDatabase_conn;
+            Int32 ActualCustomersCount = (Int32)TestCommandCustomer.ExecuteScalar();
+            
+            _InventoryDatabase_conn.Close();
+
+            Assert.AreEqual(ExpectedCustomersCount, ActualCustomersCount);
+        }
+
+        /* Test: The Login class with inserting date.
+         */
+        [Test]
+        public void TestLoginTable()
+        {
+            _InventoryDatabase_conn.Open();
+
+            SqlCommand TestCommandLogin = new SqlCommand();
+            TestCommandLogin.CommandText = "SELECT COUNT(*) FROM login";
+            TestCommandLogin.Connection = _InventoryDatabase_conn;
+            Int32 ActualloginsCount = (Int32)TestCommandLogin.ExecuteScalar();
+
+            _InventoryDatabase_conn.Close();
+
+            Assert.AreEqual(ExpectedLoginsCount, ActualloginsCount);
+        }
+
+        /* Test: Test products table database.
+         */
+        [Test]
+        public void TestProductsTable()
+>>>>>>> 1ccd6e55fe7e42390977aa1d179528528026e47b
         {
             _InventoryDatabase_conn.Open();
 
@@ -122,7 +163,11 @@ namespace InventorySystem
         /* Test: Test vendors table database.
          */
         [Test]
+<<<<<<< HEAD
         public void TestVendorsCount()
+=======
+        public void TestVendorsTable()
+>>>>>>> 1ccd6e55fe7e42390977aa1d179528528026e47b
         {
             _InventoryDatabase_conn.Open();
 
@@ -139,7 +184,11 @@ namespace InventorySystem
         /* Test: Test stocks table database.
          */
         [Test]
+<<<<<<< HEAD
         public void TestStocksCount()
+=======
+        public void TestStocksTable()
+>>>>>>> 1ccd6e55fe7e42390977aa1d179528528026e47b
         {
             _InventoryDatabase_conn.Open();
 

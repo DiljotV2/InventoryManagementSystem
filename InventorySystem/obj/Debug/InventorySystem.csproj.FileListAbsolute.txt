@@ -125,6 +125,7 @@ C:\Users\diljo\OneDrive - Swinburne University\Sem03\Tools and Practices\Distinc
 C:\Users\diljo\OneDrive - Swinburne University\Sem03\Tools and Practices\Distinction project\DistinctionSoftware\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.csproj.CopyComplete
 C:\Users\diljo\OneDrive - Swinburne University\Sem03\Tools and Practices\Distinction project\DistinctionSoftware\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.exe
 C:\Users\diljo\OneDrive - Swinburne University\Sem03\Tools and Practices\Distinction project\DistinctionSoftware\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.pdb
+<<<<<<< HEAD
 C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryManagementSystem-master\InventorySystem\bin\Debug\NUnit3.TestAdapter.dll
 C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryManagementSystem-master\InventorySystem\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryManagementSystem-master\InventorySystem\bin\Debug\nunit.engine.dll
@@ -162,3 +163,5 @@ C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryMa
 C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryManagementSystem-master\InventorySystem\obj\Debug\InventorySystem.csproj.CopyComplete
 C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryManagementSystem-master\InventorySystem\obj\Debug\InventorySystem.exe
 C:\Users\user\OneDrive - Swinburne University\Development Project\HD\InventoryManagementSystem-master\InventorySystem\obj\Debug\InventorySystem.pdb
+=======
+>>>>>>> 1ccd6e55fe7e42390977aa1d179528528026e47b
